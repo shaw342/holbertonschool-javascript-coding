@@ -1,4 +1,3 @@
-module.exports = fuction displayMessage(message) {
-  console.log(message);
-  // console.log(process);
+module.exports = function displayMessage(stdout) {
+  console.log(stdout);
 };
